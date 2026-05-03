@@ -1,0 +1,41 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "la-cura",
+  "description": "Skills para diseñadoras hispanohablantes en transición a la IA. Curado por Daniela Gallardo.",
+  "owner": {
+    "name": "Daniela Gallardo",
+    "url": "https://github.com/DanielaGallardoio"
+  },
+  "metadata": {
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "council-of-five",
+      "description": "Convoca a 5 personas con perspectivas distintas para debatir una decisión y devolverte una comparación clara de opciones. Útil cuando una decisión de diseño, naming, posicionamiento o trade-off no tiene una respuesta obvia.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniela Gallardo",
+        "url": "https://github.com/DanielaGallardoio"
+      },
+      "homepage": "https://github.com/DanielaGallardoio/council-of-five",
+      "repository": "https://github.com/DanielaGallardoio/council-of-five",
+      "license": "MIT",
+      "category": "design",
+      "keywords": [
+        "council",
+        "consejo",
+        "decisiones",
+        "diseño",
+        "perspectivas",
+        "debate",
+        "la-cura"
+      ],
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./council-of-five"
+      ]
+    }
+  ]
+}
